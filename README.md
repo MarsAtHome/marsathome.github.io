@@ -1,2 +1,1 @@
-# marsathome.github.io
-The Website
+# Mars @ Home
