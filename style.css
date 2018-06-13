@@ -4,7 +4,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 body {
-  line-height: 70%;
+  text-align: center;
+  /*line-height: 70%;*/
   /*background: #27ae60;*/
   /*background: #2c3e50;*/
   /*background: #3C40C6;*/
@@ -19,12 +20,13 @@ body {
 }
 
 #earth {
+  height: 28px;
   position: relative;
-  bottom: 3px;
+  bottom: -3px;
 }
 
 #footer {
-  
+
   display: block;
   margin: auto;
   text-align: center;
@@ -35,16 +37,16 @@ body {
   margin-right: auto;*/
 }
 
-#link-field {
+#link-field, #academiaEmail, #developerEmail {
   background: #fff;
-  color: #2980b9;
+  color: #0000FF;
   font-weight: bold;
+  font-size: 120%;
   text-align: center;
-  padding: 5px 50px;
   width: 400px;
   border: none;
   border-radius: 5px;
-  /*height: 20px;*/
+  height: 30px;
 }
 
 #result {
@@ -57,7 +59,9 @@ body {
 }
 
 #logo {
-  width: 50px;
+  position: relative;
+  bottom: -8px;
+  width: 40px;
   margin-right: 10px;
 }
 
@@ -66,4 +70,17 @@ body {
 
   display: block;
   /*float: left;*/
+  text-align: center;
+}
+
+#description, #vision, #vision ul li {
+  text-align: center;
+  margin: 5px 20%;
+  font-size: 140%;
+}
+
+#megaphone {
+  position: relative;
+  bottom: -6px;
+  width: 30px;
 }
