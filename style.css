@@ -126,3 +126,12 @@ body {
 .inputTitle {
   margin-bottom: 8px;
 }
+
+#faqs {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.faq {
+  margin-bottom: 30px;
+}
