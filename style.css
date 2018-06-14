@@ -49,6 +49,26 @@ body {
   height: 30px;
 }
 
+#downloadBtn {
+  background: #34495e;
+  color: #48B19B;
+  font-weight: bold;
+  font-size: 115%;
+  text-align: center;
+  width: 350px;
+  border: none;
+  text-decoration: underline;
+  border-radius: 10px;
+  height: 60px;
+  cursor: pointer; 
+}
+
+#downloadBtn:hover {
+  background: #f39c12; /*#f1c40f;*/
+  color: #0000FF;
+}
+
+
 #result {
   text-transform: capitalize;
 }
@@ -81,7 +101,7 @@ body {
 #description, #vision, #vision ul li {
   text-align: center;
   margin: 5px 20%;
-  font-size: 140%;
+  font-size: 130%;
 }
 
 .megaphone {

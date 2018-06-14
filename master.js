@@ -69,3 +69,8 @@ function submitEmail (id) {
     $(id).attr("placeholder", 'Thank you!');
   });
 }
+
+$("#downloadBtn").on("click", function() {
+   // chrome.webstore.install(url, successCallback, failureCallback);
+    chrome.webstore.install() 
+});
