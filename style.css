@@ -102,3 +102,7 @@ body {
 .link {
   color: white;
 }
+
+.inputTitle {
+  margin-bottom: 8px;
+}
