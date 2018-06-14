@@ -41,9 +41,9 @@ body {
   background: #fff;
   color: #0000FF;
   font-weight: bold;
-  font-size: 120%;
+  font-size: 110%;
   text-align: center;
-  width: 400px;
+  width: 350px;
   border: none;
   border-radius: 5px;
   height: 30px;
@@ -67,10 +67,15 @@ body {
 
 .header {
   margin: 10px;
-
   display: block;
   /*float: left;*/
   text-align: center;
+}
+
+.header a {
+  text-decoration: none;
+  /*color: white;*/
+  color: #FAFBFE;
 }
 
 #description, #vision, #vision ul li {
@@ -83,4 +88,13 @@ body {
   position: relative;
   bottom: -6px;
   width: 25px;
+}
+
+#bottom {
+  margin-top: 20px;
+  font-size: 70%;
+}
+
+#contact {
+  color: white;
 }
